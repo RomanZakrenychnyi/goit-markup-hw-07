@@ -78,11 +78,11 @@ ul
   overflow: hidden;
 }
 
-.underline {
+.page-header {
   border-bottom: 1px solid #ECECEC;
 }
 
-body {
+.page {
   font-family: Roboto, sans-serif;
   color: var(--nero);
   background-color: var(--white);
@@ -90,7 +90,7 @@ body {
 
 /* ===========HEADER=========== */
 
-.site-top-logo {
+.logo {
   color: var(--black);
   font-family: Raleway, sans-serif;
   text-decoration: none;
@@ -100,15 +100,16 @@ body {
 
   padding-top: 24px;
   padding-bottom: 25px;
-  margin-right: 93px;
+  margin-right: 91px;
   box-sizing: content-box;
 }
 
-.site-top-name {
+.logo__text-black {
   color: var(--blue);
 }
 
-.site-top-dots {
+.site-nav,
+.address-nav {
   display: flex;
   list-style: none;
   margin-left: auto;
@@ -117,24 +118,24 @@ body {
   margin-bottom: 0;
 }
 
-.site-top-dots .item {
+.site-nav__item {
   margin-right: 50px;
 }
 
-.site-top-dots .item:last-child {
-  margin-right: 0;
-}
-
-.site-top-dots .item-adress {
+.address-nav__item {
   margin-right: 30px;
 }
 
-.site-top-link {
+.site-nav__item:last-child,
+.address-nav__item:last-child {
+  margin-right: 0;
+}
+
+.site-nav__link {
   display: flex;
   color: var(--nero);
   font-weight: 500;
   text-decoration: none;
-  line-height: 1.14;
   font-size: 14px;
   letter-spacing: 0.02em;
 
@@ -144,19 +145,19 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-top-link:hover,
-.site-top-link:focus {
+.site-nav__link:hover,
+.site-nav__link:focus {
   color: var(--blue);
 }
 
-.site-top-link.current {
+.site-nav__link.current {
   color: var(--blue);
   position: relative;
 
   transition-property: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
-.site-top-link.current::after {
+.site-nav__link.current::after {
   position: absolute;
   bottom: -1px;
   left: 0px;
@@ -168,11 +169,7 @@ body {
   background-color: var(--blue)
 }
 
-.item {
-  position: relative;
-}
-
-.site-top-link:hover::after {
+.site-nav__link:hover::after {
   position: absolute;
   bottom: -1px;
   left: 0px;
@@ -184,14 +181,14 @@ body {
   background-color: var(--blue)
 }
 
-.site-top-link::after {
+.site-nav__link::after {
   content: "";
   background-color: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-top-email,
-.site-top-tel {
+.address-nav__email,
+.address-nav__tel {
   display: flex;
   align-items: center;
 
@@ -208,14 +205,14 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-top-email:hover,
-.site-top-email:focus,
-.site-top-tel:hover,
-.site-top-tel:focus {
+.address-nav__email:hover,
+.address-nav__email:focus,
+.address-nav__tel:hover,
+.address-nav__tel:focus {
   color: var(--blue);
 }
 
-.nav-img {
+.address-nav__pic {
   fill: currentColor;
   margin-right: 10px;
 }
