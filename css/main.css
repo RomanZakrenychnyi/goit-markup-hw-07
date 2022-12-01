@@ -492,17 +492,17 @@ ul {
   margin-bottom: 30px;
 }
 
-.spacials-dots {
+.spacials__list {
   display: flex;
   gap: 30px;
 }
 
-.spacials-list {
+.spacials__item {
   flex-basis: calc((100% - 90px) / 4);
   width: 270px;
 }
 
-.spacial-item {
+.spacials__pics {
   display: flex;
   height: 120px;
   justify-content: center;
@@ -511,7 +511,7 @@ ul {
   background-color: #F5F4FA;
 }
 
-.spacials-tittle {
+.spacials__tittle {
   color: var(--nero);
   font-size: 14px;
   line-height: 1.14;
@@ -522,7 +522,7 @@ ul {
   margin-bottom: 10px;
 }
 
-.spacials-text {
+.spacials__text {
   color: var(--grey);
   font-size: 14px;
   font-weight: 400;
@@ -628,7 +628,7 @@ ul {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-dots {
+.client__list {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -651,7 +651,7 @@ ul {
   outline: transparent;
 }
 
-.client-icon {
+.client__icon {
   fill: currentColor;
 }
 
