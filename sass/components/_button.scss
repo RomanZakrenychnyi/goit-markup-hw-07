@@ -1,5 +1,4 @@
 .button {
-    display: flex;
     font-family: inherit;
     font-weight: 700;
     line-height: 1.88;
@@ -28,6 +27,7 @@
 }
 
 .form-subscribe__btn {
+    display: flex;
     padding: 10px 28px;
     margin-left: 12px;
 }
