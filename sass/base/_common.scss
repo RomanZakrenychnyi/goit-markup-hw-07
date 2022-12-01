@@ -34,13 +34,16 @@ ul {
     gap: 30px;
 }
 
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
 
 .list {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.page {
+    font-family: Roboto, sans-serif;
+    color: var(--nero);
+    background-color: var(--white);
 }

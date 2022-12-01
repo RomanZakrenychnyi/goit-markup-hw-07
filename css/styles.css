@@ -1,14 +1,4 @@
 
-.page-header {
-  border-bottom: 1px solid #ECECEC;
-}
-
-.page {
-  font-family: Roboto, sans-serif;
-  color: var(--nero);
-  background-color: var(--white);
-}
-
 /* ===========HEADER=========== */
 
 .logo {
@@ -140,6 +130,10 @@
   margin-right: 10px;
 }
 
+.page-header {
+  border-bottom: 1px solid #ECECEC;
+}
+
 /* ===========HERO=========== */
 
 .hero {
@@ -242,7 +236,7 @@
 
 /* ==========PRESENTATION SECTION========= */
 
-.presentation {
+.presentation.section {
   padding-top: 0;
 }
 
@@ -262,24 +256,6 @@
 
 .relative {
   position: relative;
-}
-
-.subtitle {
-  position: absolute;
-  width: 100%;
-  background-color: rgba(47, 48, 58, 0.8);
-  bottom: 0;
-
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-
-  padding-top: 27px;
-  padding-bottom: 27px;
 }
 
 /* ===========TEAM SECTION=========== */
