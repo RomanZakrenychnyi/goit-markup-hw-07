@@ -2,8 +2,8 @@
     border-bottom: 1px solid #ECECEC;
 }
 
-.site-nav__list,
-.address-list {
+.site-nav,
+.address-nav {
     display: flex;
     list-style: none;
     margin-left: auto;
@@ -17,7 +17,7 @@
 }
 
 .site-nav__item:last-child,
-.address-list__item:last-child {
+.address-nav__item:last-child {
     margin-right: 0;
 }
 
@@ -79,12 +79,12 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-list__item {
+.address-nav__item {
     margin-right: 30px;
 }
 
-.address-list__email,
-.address-list__tel {
+.address-nav__email,
+.address-nav__tel {
     display: flex;
     align-items: center;
 
@@ -101,14 +101,14 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-list__email:hover,
-.address-list__email:focus,
-.address-list__tel:hover,
-.address-list__tel:focus {
+.address-nav__email:hover,
+.address-nav__email:focus,
+.address-nav__tel:hover,
+.address-nav__tel:focus {
     color: var(--blue);
 }
 
-.address-list__pic {
+.address-nav__pic {
     fill: currentColor;
     margin-right: 10px;
-} 
+}
