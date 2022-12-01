@@ -1,6 +1,10 @@
 
 /* ===========HEADER=========== */
 
+.page-header {
+  border-bottom: 1px solid #ECECEC;
+}
+
 .logo {
   color: var(--black);
   font-family: Raleway, sans-serif;
@@ -128,10 +132,6 @@
 .address-nav__pic {
   fill: currentColor;
   margin-right: 10px;
-}
-
-.page-header {
-  border-bottom: 1px solid #ECECEC;
 }
 
 /* ===========HERO=========== */
